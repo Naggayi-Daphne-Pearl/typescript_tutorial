@@ -84,7 +84,9 @@ Difference between a class and an interface
     - A class is a blueprint for creating objects with properties and methods, while an interface is a contract that describes the shape of an object, but doesn't provide an implementation.
     - A class can be instantiated, while an interface cannot.
 
-
+ReadOnly 
+    - We can add access modifiers to the properties of a class. TypeScript also provides a new access modifier called readonly.
+    
 
 
 
