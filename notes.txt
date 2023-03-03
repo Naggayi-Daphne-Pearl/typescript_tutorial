@@ -50,7 +50,16 @@ Types in TypeScript
     - Reference Types
         - Arrays, Objects and functions
     
+Interfaces
+    - In TypeScript, an interface is a way to define a set of related properties and methods that a type should have. 
+    - It's like a blueprint or a contract that defines what properties and methods an object should have.     
+    - Example 
+        - interface Person {
+            name: string;
+            age: number;
+            }
         
+
 
 
 

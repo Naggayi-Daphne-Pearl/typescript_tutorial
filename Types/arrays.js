@@ -1,4 +1,5 @@
 "use strict";
+//arrays
 let ids = [1, 2, 3, 4, 5]; // can only contain numbers
 let names = ['Daphne', 'Pearl', 'Naggayi']; // can only contain strings
 // let options: boolean[] = [true, false, false]; can only contain true or false

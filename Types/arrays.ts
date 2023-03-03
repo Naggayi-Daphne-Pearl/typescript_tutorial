@@ -1,3 +1,4 @@
+//arrays
 let ids: number[] = [1, 2, 3, 4, 5]; // can only contain numbers
 let names: string[] = ['Daphne', 'Pearl', 'Naggayi']; // can only contain strings
 // let options: boolean[] = [true, false, false]; can only contain true or false
