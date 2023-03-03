@@ -1,6 +1,6 @@
 "use strict";
 // strings are immutable and cannot be altered
-let list = 'Danny';
+let list = 'Daphne';
 // name.toLowerCase();
 // console.log(name); // Danny - the string method didn't mutate the string
 //arrays are mutable 

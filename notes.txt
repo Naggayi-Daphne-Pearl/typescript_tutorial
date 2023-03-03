@@ -46,7 +46,9 @@ Types in TypeScript
     
     - we can set the type we want a variable to be be adding " : type "
     -  A union type is a variable that can be assigned more than one type:
-    
+
+    - Reference Types
+        - Arrays, Objects and functions
     
         
 

@@ -1,7 +1,7 @@
 // Setting the type of the variables. 
 
 let identification: number = 5;
-let firstname: string = 'danny';
+let firstname: string = 'daphne';
 let hasDog: boolean = true;
 
 let unit: number; // Declare variable without assigning a value
