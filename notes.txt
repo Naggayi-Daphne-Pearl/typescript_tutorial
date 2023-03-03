@@ -86,6 +86,15 @@ Difference between a class and an interface
 
 ReadOnly 
     - We can add access modifiers to the properties of a class. TypeScript also provides a new access modifier called readonly.
+    - This prevents assignments to the field outside of the constructor.
+
+Constructors 
+    - Class constructors are very similar to functions. 
+    - You can add parameters with type annotations, default values, and overloads
+
+Superclass 
+    - 
+
     
 
 
