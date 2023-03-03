@@ -58,8 +58,31 @@ Interfaces
             name: string;
             age: number;
             }
-        
 
+Classes : a class is a blueprint for creating objects with a specific set of properties and methods.
+    - A class in TypeScript consists of a constructor method and one or more methods and properties.
+    - The constructor method is used to create and initialize an object of the class, and the methods and properties define the behavior and characteristics of the object.
+    - Example 
+        class Person {
+            firstName: string;
+            lastName: string;
+
+            constructor(firstName: string, lastName: string) {
+                this.firstName = firstName;
+                this.lastName = lastName;
+            }
+
+            getFullName(): string {
+                return this.firstName + " " + this.lastName;
+            }
+            }
+
+            const person = new Person("John", "Doe");
+            console.log(person.getFullName()); // logs "John Doe"
+
+Difference between a class and an interface 
+    - A class is a blueprint for creating objects with properties and methods, while an interface is a contract that describes the shape of an object, but doesn't provide an implementation.
+    - A class can be instantiated, while an interface cannot.
 
 
 
