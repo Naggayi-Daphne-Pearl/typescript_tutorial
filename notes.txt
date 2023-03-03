@@ -1,0 +1,22 @@
+WHAT IS TYPESCRIPT
+    - TypeScript is a superset of JavaScript, meaning that it does everything that JavaScript does, but with some added features.
+    - The main reason for using TypeScript is to add static typing to JavaScript. 
+    - Static typing means that the type of a variable cannot be changed at any point in a program. It can prevent a LOT of bugs!
+    - JavaScript is a dynamically typed lanaguage meaning variables can change their type. 
+        - Example: 
+        // JavaScript
+        let daphne = 'Hello, world'
+        daphne = 25 // daphne has changed from a string to a number which is a no  problem 
+        - Where as TypeScript
+        let daphne = 'Hello, world'
+        daphne = 25 // Error: daphne cannot be changed from a string to number 
+    - TypeScript cannot be understood by browsers so it is complied to JavaScript.
+
+Why use TypeScript instead?
+    - TypeScript can spot 15% of common bugs.
+    - Readability – it is easier to see what the code it supposed to do. And when working in a team, it is easier to see what the other developers intended to
+Drawbacks - TypeScript has to be compiled – which can take time, especially in larger projects.
+
+
+
+
