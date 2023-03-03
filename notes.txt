@@ -30,7 +30,27 @@ TS config file
     - In this file we can specify the root files, compiler options, and how strict we want TypeScript to be in checking our project.
     - To create a ts config file 
         - tsc --init
+
+
+Types in TypeScript
+    - Primitive Types: In JavaScript, a primitive value is data that is not an object and has no methods.
+        - string
+        - number
+        - bigint
+        - boolean
+        - undefined
+        - null
+        - symbol
+        - Primitives are immutable: they can't be altered.
+        - The variable may be reassigned a new value, but the existing value can't be changed in the ways that objects,arrays, and functions can be altered.
     
+    - we can set the type we want a variable to be be adding " : type "
+    -  A union type is a variable that can be assigned more than one type:
+    
+    
+        
+
+
 
 
 
