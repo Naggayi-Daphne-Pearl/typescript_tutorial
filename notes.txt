@@ -18,5 +18,21 @@ Why use TypeScript instead?
 Drawbacks - TypeScript has to be compiled – which can take time, especially in larger projects.
 
 
+Compile Typescript 
+    - Write a typescript file like index.ts
+    - In the terminal type tsc with the file name i.e tsc index
+    - It will compile a js file called index.js
+    - Towatch for changes and compile automatically 
+        - tsc index.ts-w
+
+TS config file 
+    - The ts config file should be in the root directory of your project
+    - In this file we can specify the root files, compiler options, and how strict we want TypeScript to be in checking our project.
+    - To create a ts config file 
+        - tsc --init
+    
+
+
+
 
 
